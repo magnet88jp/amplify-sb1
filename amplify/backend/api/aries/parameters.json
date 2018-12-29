@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "aries",
+    "schemaGraphql": "s3://aries-20181229121445-deployment/amplify-appsync-files/schema.graphql.1546053543420",
+    "ResolverBucket": "aries-20181229121445-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1546053543420"
+}
