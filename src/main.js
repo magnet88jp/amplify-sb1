@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import Buefy from 'buefy'
+//import 'buefy/lib/buefy.min.css'
 
 import Amplify, * as AmplifyModules from 'aws-amplify' // 追記
 import { AmplifyPlugin } from 'aws-amplify-vue' // 追記
@@ -12,5 +14,8 @@ Vue.use(AmplifyPlugin, AmplifyModules) // 追記
 Vue.config.productionTip = false
 
 new Vue({
+  router,
   render: h => h(App),
 }).$mount('#app')
+
+Vue.use(Buefy);
